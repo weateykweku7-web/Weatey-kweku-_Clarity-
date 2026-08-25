@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatey AI Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> </body>
+<!-- Hero / Header Section -->
+<header style="background: linear-gradient(135deg, #1e293b, #0f172a); color: white; padding: 60px 20px; text-align: center;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px; font-weight: 800;">Weatey AI Agency</h1>
+    <p style="font-size: 1.1rem; color: #94a3b8; max-width: 600px; margin: 0 auto 25px;">
+        Building custom AI chatbots, high-end web applications, and stunning visual portfolios to scale your business.
+    </p>
+    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+        <a href="#portfolio" style="background-color: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 6px rgba(37,99,235,0.3);">View Portfolio</a>
+        <a href="pk_test_c13e60fc4261e688e5bc34e44c415e506b8b854b" target="_blank" style="background-color: #10b981; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 6px rgba(16,185,129,0.3);">Book Consultation</a>
+    </div>
+</header>
+    <div 
+        
+        <!-- Portfolio Item 1: Photography Showcase -->
+        <div class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=600&q=80" alt="Photography Showcase" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h3 style="margin: 15px 0 5px; color: #1e293b;">Visual Portfolio</h3>
+            <p style="color: #64748b; font-size: 0.9rem;">Professional imagery, editorial concepts, and digital visual styling.</p>
+        </div>
+
+        <!-- Portfolio Item 2: AI Chatbot Assistant -->
+        <div class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="AI Chatbot Assistant" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h3 style="margin: 15px 0 5px; color: #1e293b;">Custom Agency Bot</h3>
+            <p style="color: #64748b; font-size: 0.9rem;">Automated customer engagement and instant lead capture system.</p>
+        </div>
+
+        <!-- Portfolio Item 3: Web Applications -->
+        <div class="portfolio-card">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Web Applications" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+            <h3 style="margin: 15px 0 5px; color: #1e293b;">Smart Management Apps</h3>
+            <p style="color: #64748b; font-size: 0.9rem;">Functional client utilities designed for clean user experiences.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<header class="navbar">
+    <div class="logo">🤖 Weatey AI Agency</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <span class="small-title">WELCOME TO WEATEY AI AGENCY</span>
+
+        <h1>
+            Smart <span>AI Solutions</span><br>
+            For Modern Businesses
+        </h1>
+
+        <p class="hero-text">
+            We help businesses automate customer support,
+            generate more leads, and grow faster with AI.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="primary-btn">
+                🚀 Start AI Chat
+            </button>
+
+            <a href="https://wa.me/233553688108" class="whatsapp-btn">
+                💬 WhatsApp Us
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="services">
+
+    <div class="section-title">
+        <p>OUR SERVICES</p>
+        <h2>What We Do</h2>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>🤖 AI Chatbots</h3>
+            <p>Intelligent chatbots for websites and businesses.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🎧 Customer Support</h3>
+            <p>24/7 automated customer service powered by AI.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>📈 Lead Generation</h3>
+            <p>Capture and qualify leads automatically.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>💻 Digital Services</h3>
+            <p>Websites, automation and business solutions.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Weatey AI Agency. All Rights Reserved.</p>
+</footer>
+<!-- Chat Button -->
+<button id="chatBtn" class="chatButton">💬</button>
+
+<!-- Chat Window -->
+<div id="chatBox" class="chatWindow">
+  <div class="chatHeader">
+    <span>🤖 Weatey AI Assistant</span>
+    <button id="closeChat">✕</button>
+  </div>
+
+  <div id="messages" class="messages"></div>
+
+  <div style="padding:15px;">
+    <input
+      id="userInput"
+      type="text"
+      placeholder="Ask me anything..."
+      style="width:100%;padding:10px;margin-bottom:10px;"
+    >
+
+        </div>
+
+    </div>
+</section>
+
+    <button id="sendBtn" class="primary-btn" style="width:100%;">
+      Send
+    </button>
+  </div>
+</div>
+<!-- Consultation Booking Form Section -->
+<section id="consultation" style="padding: 40px 20px; background: #f9fafb; text-align: center;">
+    <h2>Book a Consultation</h2>
+    <p>Ready to automate your business? Schedule a session with us.</p>
+    <form id="consultation-form" style="max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+        <input type="text" id="client-name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <input type="email" id="client-email" placeholder="Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <input type="date" id="consultation-date" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <button type="submit" style="padding: 10px; background: #2563eb; color: white; border: none; border-radius: 5px; cursor: pointer;">Confirm Booking</button>
+    </form>
+</section>
+<div style="text-align: center; margin-top: 20px;">
+    <a href="pk_test_c13e60fc4261e688e5bc34e44c415e506b8b854b" target="_blank" style="background-color: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">
+        Pay for Consultation / Service
+    </a>
+</div>
+
+<!-- One-Click WhatsApp Support Button (Floating) -->
+<a href="https://wa.me/233553688108?text=Hello%20Weatey%20AI%20Agency,%20I%20would%20like%20to%20chat!" target="_blank" style="position: fixed; bottom: 20px; left: 20px; background: #25d366; color: white; padding: 12px 18px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000;">
+    💬 WhatsApp Us
+</a>
+
+<script src="script.js"></script>
+
+</bod<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("NfIrmc20uKF_g0MWq"); // Replace with your actual EmailJS Public Key
+   })();
+</script>
+y>
+</html>
