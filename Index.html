@@ -4,27 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The No-BS Mental Clarity Blueprint</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --bg-color: #0b0b0f;
+            --card-bg: #16161f;
+            --accent-orange: #ff5e00;
+            --accent-blue: #00d2ff;
+            --text-main: #ffffff;
+            --text-muted: #a0a0ab;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 94, 0, 0.3);
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, var(--accent-orange), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+        }
+        .features {
+            margin: 30px 0;
+            list-style: none;
+        }
+        .features li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+        }
+        .features li::before {
+            content: "✔";
+            color: var(--accent-orange);
+            font-weight: bold;
+            margin-right: 12px;
+        }
+        .cta-box {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-orange), #ff9900);
+            color: #fff;
+            padding: 16px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: uppercase;
+            text-transform: uppercase;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(255, 94, 0, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 94, 0, 0.6);
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 20px;
+        }
+        footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
     <div class="container">
-        <header>
+        <header>"The Anti-Wellness Guide to Absolute Mental Clarity "
             <h1>Enough of the Wellness Matrix</h1>
             <p class="subtitle">Stop managing burnout. Start dismantling the habits keeping you exhausted.</p>
-        </header>
+        </header>"For High-performers tired of breathing that don't pay bills or fix burnout "
 
-        <section>
+        <section>""
             <ul class="features">
                 <li>No toxic positivity.</li>
                 <li>No 45-minute lotus-position meditations.</li>
                 <li>Just raw, biological nervous system dominance.</li>
-            </ul>
-        </section>
+            </ul>"Call out the failure of traditional mindfulness, journals, and apps"
+        </section>"The raw,unfiltered system to drop cortisol, clear mental fog,and convert bandwidth into execution and cash"
 
         <div class="cta-box">
-            <!-- Replace "#checkout" with your actual payment link (Stripe, Paystack, etc.) -->
-            <a href="pk_test_c13e60fc4261e688e5bc34e44c415e506b8b854b" id="cta-btn" class="btn">Claim Your Access Now</a>
+            <!-- Replace "#checkout" with your actual Stripe, Paystack, or payment link -->
+            <a href="#checkout" class="btn" onclick="alert('pk_test_c13e60fc4261e688e5bc34e44c415e506b8b854b');">Claim Your Access Now</a>
         </div>
 
         <footer>
@@ -33,6 +132,5 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
 </body>
 </html>
